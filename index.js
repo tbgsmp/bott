@@ -12,11 +12,11 @@ app.listen(process.env.PORT || 3000)
 function createBot() {
 
   const bot = mineflayer.createBot({
-    host: 'tbg.freezehost.com',
-    port: 25565,
+    host: 'TBGS.aternos.me',
+    port: 41051,
     username: 'ServerTBG',
     auth: 'offline',
-    version: '1.20.4'
+    version: '26.1.2'
   })
 
   bot.on('spawn', () => {
@@ -24,7 +24,7 @@ function createBot() {
 
     // AuthMe login
     setTimeout(() => {
-      bot.chat('/login YOUR_PASSWORD')
+      bot.chat('/login serverisHIMTBG')
     }, 3000)
 
     // Anti AFK
