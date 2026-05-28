@@ -16,7 +16,7 @@ function createBot() {
     port: 41051,
     username: 'ServerTBG',
     auth: 'offline',
-    version: '26.1.2'
+    version: '1.21.11'
   })
 
   bot.on('spawn', () => {
