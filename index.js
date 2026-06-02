@@ -12,7 +12,7 @@ app.listen(process.env.PORT || 3000)
 function createBot() {
 
   const bot = mineflayer.createBot({
-    host: 'tbg.play.hosting',
+    host: 'tbgs.mcsh.io',
     port: 25565,
     username: 'ServerTBG',
     auth: 'offline',
